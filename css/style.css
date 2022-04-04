@@ -133,6 +133,8 @@ body {
 
 }
 
+.page__work {}
+
 /* ---HEADER-BLOCK------------------------------------------------------------------------ */
 
 .header-block {
@@ -329,7 +331,67 @@ body {
 	color: #737373;
 }
 
-/*===================================================================*/
+/*====== WORK =============================================================*/
+
+
+.work_container {
+	padding: 40px 0 20px 0;
+}
+
+.work__body {
+	justify-content: center;
+	text-align: center;
+	
+}
+
+.title__text{
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+	
+.work__column {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 50%;
+
+}
+@media (max-width: 767px) {
+	.work__column {
+		flex: 0 1 100%;
+		text-align: center;
+		justify-content: center;
+
+	}
+}
+
+.work {
+	padding: 1px;
+	margin: 0 auto;
+	
+	
+				
+}
+
+.work__item {
+	background-color: rgb(255, 255, 255);
+		
+}
+
+.item-work__icon {
+	padding: 10px;
+	overflow: hidden;
+	
+	
+	
+		
+}
+
+.item-work__title {}
+
+.item-work__text {}
+
+
+
 
 /*---------------Контакты--------------------------------------------*/
 .contact {
